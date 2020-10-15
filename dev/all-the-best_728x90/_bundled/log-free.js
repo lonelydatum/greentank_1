@@ -40,6 +40,7 @@ function start() {
 
 	tl.to(".logo", .3, { opacity: 1 });
 	tl.from(".t4", .3, _extends({}, fromO));
+	tl.from(".play", .3, { opacity: 0 });
 
 	// tl.gotoAndPlay("wave2")
 }
