@@ -1,0 +1,26 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+}
+
+
+.bg{	
+	clip: rect(0px, 200px, 250px, 0px);
+}
+
+.product{	
+	clip: rect(0px, 400px, 500px, 240px);
+}
+
+#banner{
+	font-size: 20px;
+	color: red;
+	width: 200px;
+	height: 250px;
+}
+
