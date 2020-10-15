@@ -232,9 +232,9 @@ sup {
 }
 
 .t1, .t2, .t3, .t4, .play, .logo, .logo2 {
-  -webkit-transform: translate(0px, -7px) scale(0.5, 0.5);
-  -ms-transform: translate(0px, -7px) scale(0.5, 0.5);
-  transform: translate(0px, -7px) scale(0.5, 0.5);
+  -webkit-transform: translate(0px, -10px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, -10px) scale(0.5, 0.5);
+  transform: translate(0px, -10px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
