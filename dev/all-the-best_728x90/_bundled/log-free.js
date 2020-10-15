@@ -10,6 +10,7 @@ function start() {
 	var fromO = { opacity: 0, y: "-=20" };
 	var toO = { opacity: 0, y: "+=20" };
 
+	// TweenLite.from(".line", 10, {clip: `rect(0px, 0px, 90px, 0px)`, ease:Power1.easeOut, delay:2})
 	tl.set(".frame1", { opacity: 1 });
 
 	tl.add('wave1');
