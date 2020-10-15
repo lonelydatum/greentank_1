@@ -24,9 +24,9 @@ function start(){
 	tl.to(".logo", .3, {opacity:0})
 	tl.from(".logo2", .3, {opacity:0})
 	tl.add(enter(3))
-	tl.set(`.product_${2}`, {opacity:0})
+	tl.set(`.product_${2}`, {opacity:0}, '-=.5')
 	tl.to(`.bg_${3}`, .7, {opacity:0}, "+=.3")
-	tl.from(`.cta`, .5, {opacity:0, y:"+=30"})
+	tl.from(`.cta`, .3, {opacity:0, y:"+=30"})
 
 
 
