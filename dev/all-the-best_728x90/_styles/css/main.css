@@ -215,15 +215,38 @@ sup {
   opacity: 0;
 }
 
-.frame1 {
-  opacity: 0;
+.wave {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+  clip: rect(0px, 728px, 90px, 0px);
+}
+
+.bg2 {
+  clip: rect(0px, 728px, 90px, 0px);
+}
+
+.t1, .t2, .t3, .t4, .play, .logo, .logo2 {
+  -webkit-transform: translate(0px, -7px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, -7px) scale(0.5, 0.5);
+  transform: translate(0px, -7px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
 }
 
 #banner {
   font-size: 20px;
   color: #333;
-  width: 300px;
-  height: 250px;
+  width: 728px;
+  height: 90px;
 }
 
 /*# sourceMappingURL=main.css.map */
