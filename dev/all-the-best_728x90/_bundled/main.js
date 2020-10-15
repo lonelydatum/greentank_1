@@ -14,10 +14,10 @@ function start() {
 	tl.set(".frame1", { opacity: 1 });
 
 	tl.add('wave1');
-	tl.from(".wave", 1, { scale: "+=.5", x: "-150", clip: "rect(0px, 0px, 90px, 0px)", ease: Linear.easeNone }, 'wave1');
+	tl.from(".wave", 1, { scale: "+=.5", x: "-150", clip: "rect(0px, 0px, 90px, 0px)", ease: Linear.easeNone });
+	tl.to(".wave", 1, { x: "+=200", opacity: 0, clip: "rect(0px, 728px, 90px, 728px)", ease: Linear.easeNone });
 	tl.from(".bg2", 1, { clip: "rect(0px, 0px, 90px, 0px)" }, 'wave1');
 
-	tl.to(".wave", 1, { x: "+=200", opacity: 0, clip: "rect(0px, 728px, 90px, 728px)" });
 	tl.set(".wave", { opacity: 1, scale: 1, x: 0, clip: "rect(0px, 0px, 90px, 0px)" });
 
 	tl.from(".t1", .3, _extends({}, fromO), '-=.3');
