@@ -34,10 +34,10 @@ function start() {
 
 	tl.add("wave2", "+=1");
 
-	tl.to(".wave", 1, { clip: "rect(0px, 728px, 90px, 0px)" }, "wave2");
+	tl.to(".wave", 1, { clip: "rect(0px, 728px, 90px, 0px)", ease: Linear.easeNone }, "wave2");
+	tl.to(".wave", 1, { x: "+=200", opacity: 0, clip: "rect(0px, 728px, 90px, 728px)", ease: Linear.easeNone });
 	tl.to([".t3"], .3, _extends({}, toO), "wave2+=1");
 	tl.to([".logo2"], .3, { opacity: 0 }, "wave2+=1");
-	tl.to(".wave", 1, { x: "+=200", opacity: 0, clip: "rect(0px, 728px, 90px, 728px)" }, "wave2+=1");
 
 	tl.to(".logo", .3, { opacity: 1 });
 	tl.from(".t4", .3, _extends({}, fromO));
