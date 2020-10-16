@@ -1,7 +1,7 @@
 const zero = {opacity:0}
 const one = {opacity:1}
-const down = {y:"+=70"}
-const up = {y:"-=70"}
+const down = {y:"+=100"}
+const up = {y:"-=90"}
 
 function start(){
 	TweenLite.defaultEase = Power4.easeOut
@@ -55,7 +55,7 @@ function start(){
 
 
 
-	// tl.gotoAndPlay("wave2")
+	// tl.gotoAndPlay("3-out")
 	
 
 

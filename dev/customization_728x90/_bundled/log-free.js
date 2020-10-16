@@ -5,8 +5,8 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var zero = { opacity: 0 };
 var one = { opacity: 1 };
-var down = { y: "+=70" };
-var up = { y: "-=70" };
+var down = { y: "+=100" };
+var up = { y: "-=90" };
 
 function start() {
 	TweenLite.defaultEase = Power4.easeOut;
@@ -42,7 +42,7 @@ function start() {
 	// tl.add(enter(4))
 	// tl.add(exit(4), "+=1")
 
-	// tl.gotoAndPlay("wave2")
+	// tl.gotoAndPlay("3-out")
 }
 
 function exit(num) {

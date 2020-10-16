@@ -15,7 +15,7 @@ function start(){
 	tl.add(exit(1), "+=2")
 
 	tl.add(enter(2))
-	tl.set(`.product_${1}`, {opacity:0})
+	tl.to(`.product_${1}`, .3, {opacity:0}, "-=.3")
 
 	tl.add(exit(2), "+=2")
 
