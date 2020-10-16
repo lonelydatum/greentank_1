@@ -3,6 +3,8 @@
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
+window.clickTag = "https://marketing.greentanktech.com/l/864572/2020-07-14/j938z";
+
 function start() {
 	TweenLite.defaultEase = Power3.easeInOut;
 	var tl = new TimelineMax();

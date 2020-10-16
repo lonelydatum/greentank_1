@@ -1,3 +1,4 @@
+window.clickTag = "https://marketing.greentanktech.com/l/864572/2020-07-14/j938z"
 const zero = {opacity:0}
 const one = {opacity:1}
 const down = {y:"+=100"}

@@ -1,3 +1,5 @@
+window.clickTag = "https://marketing.greentanktech.com/l/864572/2020-07-14/j938z"
+
 function start(){
 	TweenLite.defaultEase = Power3.easeInOut
 	const tl = new TimelineMax()
