@@ -38,7 +38,7 @@ function start(){
 function exit(num){
 	const tl = new TimelineMax()
 	tl.add(`exit`)
-	tl.to(`.bg_${num}`, .5, {clip: `rect(0px, 200px, 250px, 200px)`}, `exit`)
+	tl.to(`.bg_${num}`, .5, {clip: `rect(0px, 300px, 250px, 300px)`}, `exit`)
 	tl.to(`.t${num}`, .3, {...down}, `exit+=.2`)
 	// tl.to(`.product_${num}`, .3, {...down}, `exit+=.1`)
 	return tl
@@ -48,7 +48,7 @@ function enter(num){
 	const tl = new TimelineMax()
 	tl.add("enter")
 	tl.from(`.t${num}`, .4, {...up}, "enter")
-	tl.from(`.product_${num}`, .4, {clip: `rect(0px, 240px, 500px, 240px)`}, "enter+=.1")
+	tl.from(`.product_${num}`, .4, {clip: `rect(0px, 380px, 500px, 380px)`}, "enter+=.1")
 
 	tl.from(`.bg_${num}`, .7, {clip: `rect(0px, 0px, 250px, 0px)`}, "enter")
 	return tl
