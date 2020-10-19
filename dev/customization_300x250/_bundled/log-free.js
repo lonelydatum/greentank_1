@@ -44,9 +44,9 @@ function enter(num) {
 	var tl = new TimelineMax();
 	tl.add("enter");
 	tl.from(".t" + num, .4, _extends({}, up), "enter");
-	tl.from(".product_" + num, .4, { clip: "rect(0px, 380px, 500px, 380px)" }, "enter+=.1");
+	tl.from(".product_" + num, .6, { clip: "rect(0px, 380px, 500px, 380px)" }, "enter");
 
-	tl.from(".bg_" + num, .7, { clip: "rect(0px, 0px, 250px, 0px)" }, "enter");
+	tl.from(".bg_" + num, .6, { clip: "rect(0px, 0px, 250px, 0px)" }, "enter");
 	return tl;
 }
 
